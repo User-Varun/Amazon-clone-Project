@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Amazon Ember", Arial, sans-serif;
+}
+
+@font-face {
+  font-family: "myFont";
+  src: url ("../fonts/amazon-font/Amazon Ember.ttf");
+}
+
+:root {
+  --navbar-color: #131921;
+  --small-font-size: 12px;
+  --a-little-big-font-size: 14px;
+  --color-white: #fff;
+}
+
+.hero-banner-container {
+  max-width: 1480px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.position {
+  position: absolute;
+}
+
+.banner-content-box img {
+  width: 100%;
+}
+
+.btn a {
+  font-size: 52px;
+  /* border: 2px solid black; */
+  padding: 100px 10px;
+  display: flex;
+  color: white;
+}
+
+.left-btn {
+  top: 0;
+  left: 0;
+}
+
+.right-btn {
+  top: 0;
+  right: 0;
+}

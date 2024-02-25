@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Navbar component</title>
+    <link rel="stylesheet" href="navbar-component.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="left-navbar">
+        <div class="amazon-logo">
+          <a href="#"
+            ><img
+              src="../Amazon-pictures/amazon-logo-white.png"
+              alt="amazon logo"
+            />
+            <span>.in</span></a
+          >
+        </div>
+        <div class="amazon-delivery-details">
+          <ion-icon
+            name="location-outline"
+            class="update-details-icon"
+          ></ion-icon>
+          <div class="update-details">
+            <span class="update-details-upper"
+              >Delivering to Indore 00111 <br
+            /></span>
+            <span class="update-details-lower">Update location</span>
+          </div>
+        </div>
+      </div>
+      <div class="search-navbar">
+        <div class="nav-search-facade">
+          <span>All</span
+          ><ion-icon
+            name="caret-down-outline"
+            class="caret-down-icon"
+          ></ion-icon>
+        </div>
+        <select class="search-navbar-categories">
+          <option selected="selected" value="">All Categories</option>
+          <option value="">Alexa Skils</option>
+          <option value="">Amazon Devices</option>
+          <option value="">Amazon Fashion</option>
+          <option value="">Amazon Pharmacy</option>
+          <option value="">Apps & Games</option>
+          <option value="">Audible Audiobooks</option>
+          <option value="">Baby</option>
+          <option value="">Beauty</option>
+          <option value="">Books</option>
+          <option value="">Car & Motorbike</option>
+          <option value="">Clothing & Accessories</option>
+          <option value="">Collectibles</option>
+          <option value="">Computer & Accessories</option>
+          <option value="">Deals</option>
+          <option value="">Electronics</option>
+          <option value="">Furniture</option>
+          <option value="">Garden & Outdoors</option>
+          <option value="">Gift Cards</option>
+        </select>
+
+        <form action="" class="searchbar-form">
+          <input
+            type="search"
+            class="searchbar-input"
+            placeholder="Search Amazon.in"
+          />
+          <button class="searchbar-btn">
+            <ion-icon name="search-outline"></ion-icon>
+          </button>
+        </form>
+      </div>
+      <div class="right-navbar">
+        <div class="language-select-options">
+          <img
+            src="../Amazon-pictures/indian-flag.png"
+            alt=""
+            class="language-select-options-img"
+          />
+          <span>EN</span>
+          <ion-icon
+            name="caret-down-outline"
+            class="caret-down-icon-light"
+          ></ion-icon>
+        </div>
+        <div class="sign-in-and-accounts-options">
+          <span class="update-details-upper-light">Hello, sign in <br /></span>
+          <span class="update-details-lower">Accounts & Lists</span>
+          <ion-icon
+            name="caret-down-outline"
+            class="caret-down-icon-light"
+          ></ion-icon>
+        </div>
+        <div class="returns-&-orders-options">
+          <span class="update-details-upper-light">Returns <br /></span>
+          <span class="update-details-lower">& Orders</span>
+        </div>
+        <div class="cart-options">
+          <span class="cart-options-items">0</span>
+          <ion-icon name="cart-outline" class="cart-options-icon"></ion-icon>
+        </div>
+      </div>
+    </nav>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>

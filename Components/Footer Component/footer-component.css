@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Amazon Ember", Arial, sans-serif;
+}
+
+@font-face {
+  font-family: "myFont";
+  src: url ("../fonts/amazon-font/Amazon Ember.ttf");
+}
+
+:root {
+  --navbar-color: #131921;
+  --small-font-size: 12px;
+  --a-little-big-font-size: 14px;
+  --color-white: #fff;
+  --back-to-top-bag-col: #485769;
+  --upper-footer-bag-col: #232f3e;
+}
+
+.back-to-top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--back-to-top-bag-col);
+  padding: 15px 0;
+}
+
+.back-to-top a {
+  text-decoration: none;
+  color: var(--color-white);
+  font-size: 13px;
+}
+
+.upper-footer {
+  display: flex;
+
+  justify-content: center;
+  gap: 9em;
+  padding: 50px 0;
+
+  background-color: var(--upper-footer-bag-col);
+  color: var(--color-white);
+}
+
+.link li {
+  list-style: none;
+  color: #ccc;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.links-heading {
+  font-size: 16px;
+  margin-bottom: 15px;
+}
