@@ -1,0 +1,32 @@
+.hero-banner-container {
+  /* max-width: 1480px;
+  margin: 0 auto; */
+  position: relative;
+  position: relative;
+}
+
+.position {
+  position: absolute;
+}
+
+.hero-banner-content-box img {
+  width: 100%;
+}
+
+.hero-banner-btn a {
+  font-size: 52px;
+  /* border: 2px solid black; */
+  padding: 100px 10px;
+  display: flex;
+  color: white;
+}
+
+.left-btn {
+  top: 0;
+  left: 0;
+}
+
+.right-btn {
+  top: 0;
+  right: 0;
+}
